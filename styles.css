@@ -1,0 +1,188 @@
+/* Color Palette
+--rich-black-fogra-29: #001219ff;
+--blue-sapphire: #005f73ff;
+--viridian-green: #0a9396ff;
+--middle-blue-green: #94d2bdff;
+--medium-champagne: #e9d8a6ff;
+--gamboge: #ee9b00ff;
+--alloy-orange: #ca6702ff;
+--mahogany: #bb3e03ff;
+--rufous: #ae2012ff;
+--ruby-red: #9b2226ff;
+Coolors trending color palette */
+
+/* CSS HEX
+--melon: #ffa69eff;
+--eggshell: #faf3ddff;
+--aero-blue: #b8f2e6ff;
+--powder-blue: #aed9e0ff;
+--black-coral: #5e6472ff;
+*/
+
+/* CSS HEX
+--timberwolf: #cfdbd5ff;
+--alabaster: #e8eddfff;
+--maize-crayola: #f5cb5cff;
+--eerie-black: #242423ff;
+--jet: #333533ff;
+*/
+
+
+/* Link to google font "Carter One" for html title-----------------------------
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Carter+One&family=Fredericka+the+Great&family=Montserrat:wght@200;300&display=swap" rel="stylesheet"> */
+
+/* for "Carter One" a little cowboy bebop, a little comic sans font CSS declaration ---------------------------
+font-family: 'Carter One', cursive; */
+
+/* Link to google font "Rampart One" for html element ---------------------------
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai&family=Carter+One&family=Fredericka+the+Great&family=Montserrat:wght@200;300&family=Rampart+One&display=swap" rel="stylesheet"> */
+
+/* for "Rampart One" CSS body declaration
+font-family: 'Rampart One', cursive;
+*/
+
+/* Global styles
+------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+•, •:before, *:after{
+  box-sizing: inherit;
+}
+body{
+  color: #242423ff;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+
+}
+img {
+  width: 300px;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  color: #e28413;
+}
+.content-wrap{
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 0;
+  color: #333533ff;
+}
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 64px;
+  color: #0c0f0a; /*;*/
+  /* --mahogany: #bb3e03ff; */
+  /* --rufous: #ae2012ff; */
+  /* --ruby-red: #9b2226ff; */
+}
+h3{
+  /* color: #e28413; */
+}
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.divider > section:last-of-type{
+  border-bottom: none;
+}
+/* Profile
+------------------------------------------*/
+header{
+  /* background-color: #e9d8a6ff; */
+  /* text-align: center; */
+}
+.portfolio-image img {
+  float: right;
+}
+
+/* Projects
+------------------------------------------*/
+.projects{
+  /* background: #431015; */
+  /* color: #e9d8a6ff; */
+}
+.project-item {
+  overflow: hidden;
+  border-bottom: 1px dashed #cfdbd5ff;
+  padding: 25px 0;
+}
+.project-item h3{
+  margin-top: 0;
+}
+
+
+/* Work experience
+-------------------------------------------*/
+.work-experience{
+  /* background: #e9d8a6ff; */
+}
+
+
+/* Education
+------------------------------------------*/
+.education{
+  background-image: url(file:///Users/jill/Desktop/css-portfolio/css/images/placeholder-images/sharon-mccutcheon-unsplash.jpg);
+  background-size: cover;
+  background-position: top left;
+  padding-top: 100px;
+  /* background: #431015; */
+  /* color: #e9d8a6ff; */
+}
+.education p{
+  width: 60%;
+}
+
+/* Contact info
+------------------------------------------*/
+footer{
+  background: #e9d8a6ff;
+}
+.contact-list{
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  /* adding padding makes it easier to tap on mobile device */
+  display: inline-block;
+}
+
+/* Responsive
+--------------------- */
+@media screen and (min-width:375px){
+  /* header, footer{
+    text-align: center;
+  } */
+  .project-item img {
+    float: left;
+    margin-right: 20px;
+  }
+  .job-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+  .contact-list{
+    display: flex;
+    /* adding the flex property aligned our items horizontally */
+    justify-content: center;
+  }
+}
+@media screen and (max-width:374px){
+  h1 {
+    /* font-size: 75px */
+    line-height:0.9;
+  }
+  .contact-list a{
+    padding: 5px;
+  }
+}
