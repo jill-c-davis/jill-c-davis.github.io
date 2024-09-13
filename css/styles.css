@@ -89,8 +89,8 @@
  * ------------------------------------------------------------------- */
 :root {
 
-    /* color-1(#FFDBBB)
-     * color-2(#21335A)
+    /* color-1(#21335A)
+     * color-2(#2D2327)
      */
     --color-1                      : hsla(221, 46%, 24%, 1);
     --color-2                      : hsla(336, 13%, 16%, 1);
@@ -171,13 +171,13 @@
 
     /* preloader
      */
-    --color-preloader-bg           : #FFDBBB;
+    --color-preloader-bg           : #21335A;
     --color-loader                 : var(--color-text-dark);
     --color-loader-light           : var(--color-1-lighter);
 
     /* others
      */
-    --color-body                   : #FFDBBB;
+    --color-body                   : #21335A;
     --color-border                 : rgba(0, 0, 0, .08);
     --border-radius                : 3px;
 }
