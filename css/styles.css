@@ -171,13 +171,13 @@
 
     /* preloader
      */
-    --color-preloader-bg           : #FFDBBB;
+    --color-preloader-bg           : #CFE6E8;
     --color-loader                 : var(--color-text-dark);
     --color-loader-light           : var(--color-1-lighter);
 
     /* others
      */
-    --color-body                   : #FFDBBB;
+    --color-body                   : #CFE6E8;
     --color-border                 : rgba(0, 0, 0, .08);
     --border-radius                : 3px;
 }
