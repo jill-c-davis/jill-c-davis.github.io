@@ -151,8 +151,8 @@
 
     /* text
      */
-    --color-text        : var(--color-gray-4);
-    --color-text-dark   : var(--color-white);
+    --color-text        : var(--color-gray-3);
+    --color-text-dark   : var(--color-gray-2);
     --color-text-light  : var(--color-gray-7);
     --color-placeholder : var(--color-gray-7);
 
