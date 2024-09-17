@@ -173,13 +173,13 @@
 
     /* preloader
      */
-    --color-preloader-bg : var(--color-gray-15);
+    --color-preloader-bg : var(--color-gray-18);
     --color-loader       : white;
     --color-loader-light : rgba(255, 255, 255, 0.1);
 
     /* others
      */
-    --color-body    : var(--color-gray-15);
+    --color-body    : var(--color-gray-18);
     --color-border  : rgba(255, 255, 255, .05);
     --border-radius : 3px;
 }
