@@ -151,14 +151,14 @@
 
     /* text
      */
-    --color-text        : var(--color-gray-4);
-    --color-text-dark   : var(--color-white);
+    --color-text        : var(--color-gray-3);
+    --color-text-dark   : var(--color-gray-2);
     --color-text-light  : var(--color-gray-7);
     --color-placeholder : var(--color-gray-7);
 
     /* buttons
      */
-    --color-btn                    : var(--color-gray-9);
+    --color-btn                    : var(--color-gray-13);
     --color-btn-text               : var(--color-1);
     --color-btn-hover              : var(--color-white);
     --color-btn-hover-text         : var(--color-black);
