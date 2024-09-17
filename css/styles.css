@@ -93,10 +93,10 @@
 :root {
 
     /* color-1(#dcbb4)
-     * color-2(#23967f)
+     * color-2(#579390)
      */
     --color-1 : hsla(35, 36%, 78%, 1);
-    --color-2 : hsla(168, 62%, 36%, 1);
+    --color-2 : hsla(177, 26%, 46%, 1);
 
     /* theme color variations
      */
@@ -104,10 +104,10 @@
     --color-1-light   : hsla(36, 72%, 88%, 1);
     --color-1-dark    : hsla(36, 72%, 68%, 1);
     --color-1-darker  : hsla(36, 72%, 58%, 1);
-    --color-2-lighter : hsla(168, 62%, 56%, 1);
-    --color-2-light   : hsla(168, 62%, 46%, 1);
-    --color-2-dark    : hsla(168, 62%, 26%, 1);
-    --color-2-darker  : hsla(168, 62%, 16%, 1);
+    --color-2-lighter : hsla(168, 62%, 66%, 1);
+    --color-2-light   : hsla(168, 62%, 56%, 1);
+    --color-2-dark    : hsla(168, 62%, 36%, 1);
+    --color-2-darker  : hsla(168, 62%, 26%, 1);
 
     /* feedback colors
      * color-error(#ffd1d2), color-success(#c8e675), 
