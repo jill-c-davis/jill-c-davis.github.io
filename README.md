@@ -10,4 +10,4 @@ Status
 - The website is hosted at jill-c-davis.github.io
 - The website is currently `COMPLETE`
 - Expected completion time is one week
-- Actual completion time is three weeks.
+- Actual completion time was three weeks.
