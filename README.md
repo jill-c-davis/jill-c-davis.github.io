@@ -11,3 +11,4 @@ Status
 - The website is currently `COMPLETE`
 - Expected completion time is one week
 - Actual completion time was three weeks.
+- Currently in the process of updating/reorganizing to make it more readable.
